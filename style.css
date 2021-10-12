@@ -2,10 +2,10 @@
 body{
     width: 65%;
     margin: auto;
-    text-align: center;
 }
 #container{
     display: flex;
+    align-items: ;
 }
 ul{
     padding: 3px;
@@ -18,8 +18,12 @@ li{
 }
 button{
     background-color: red;
+
 }
 a:hover { 
     background-color: white;
     text-decoration: none;
   }
+footer{
+    text-align: center;
+}
