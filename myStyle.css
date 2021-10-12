@@ -1,0 +1,19 @@
+div{
+    margin: 2%;
+}
+h1, h2{
+    background-color: orangered;
+    text-align: center;
+}
+p{
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    display: grid;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
