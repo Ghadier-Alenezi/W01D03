@@ -5,7 +5,7 @@ body{
     text-align: center;
 }
 #container{
-    display: grid;
+    display: flex;
 }
 ul{
     padding: 3px;
