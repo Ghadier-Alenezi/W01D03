@@ -1,0 +1,25 @@
+
+body{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+#container{
+    display: grid;
+}
+ul{
+    padding: 3px;
+    background-color: orangered;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 0;
+}
+button{
+    background-color: red;
+}
+a:hover { 
+    background-color: white;
+    text-decoration: none;
+  }
