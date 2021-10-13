@@ -10,13 +10,6 @@ p{
     color: maroon;
     font-family: 'Times New Roman', Times, serif;
 }
-div{
-    margin: 2%;
-}
-
-#container{
-    display: grid;
-}
 img{
     width: 300px;
     height: 300px;
