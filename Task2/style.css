@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* contain all tha padding & margin in 100% */
+}
+/* * means all the html file */
+.wrapper{
+    width: 65%;
+    margin: 0 auto;
+/* to margin auto we need to have a width first! */
+}
+ul{
+    list-style-type: none;
+    background-color: orangered;
+    padding: 3px;
+    display: flex;
+    /* flex direction column */
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 0 10px;
+}
+li:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+}
+.bannerImg{
+    width: 100%;
+    height: 100%;
+}
+
+.cards{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.card{
+    width: 34%;
+    height: 100%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardImg{
+    width: 100%;
+    height: 60%;
+}
+    /* 60% size of the imgs in the boxs */
+.cardTitle, .cardInfo{
+    padding-left: 10px;
+}
+.btn{
+    border: 2px solid black;
+    background-color: red;
+    align-self: flex-end;
+    /* to make the button to the right */
+}
+footer{
+    text-align: center;
+}
+.HDlink:hover{
+    color: blue;
+}
